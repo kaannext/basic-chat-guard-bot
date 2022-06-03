@@ -1,0 +1,43 @@
+{
+
+    "BOT_SETTİNGS": [{
+        "BOT_TOKEN": "",
+        "BOT_STATUS": ""
+    }],
+
+    "WARNİNG": [{
+        "warnThreshold": 3,
+        "muteThreshold": 4,
+        "kickThreshold": 7,
+        "banThreshold":  9,
+        "maxInterval": 2000,
+        "unMuteTime":  10,
+
+        //----------------
+
+        "maxDuplicatesWarning": 6,
+        "maxDuplicatesKick": 10, 
+        "maxDuplicatesBan": 12, 
+        "maxDuplicatesMute": 8 
+
+    }],
+
+    "PERMİSSİONS": [{
+        "ignoredPermissions": ["ADMINISTRATOR"],
+        "ignoreBots": true, // False veya True Akitf/Kapalı Olması için.
+        "ignoredMembers": [], // Güvenli Üye
+        "removeMessages": true // False veya True Akitf/Kapalı Olması için.
+    }],
+
+    "BOT_LOGS": [{
+        "modLogsEnabled": false, // Modlog'ları etkinleştirmek için
+        "modLogsChannelName": "mod-logs", // modlog'ları da göndermek için kanal ismi.
+        "modLogsMode": "embed"
+    }],
+
+    "warnMessage": "{@user}, Lütfen Daha Fazla Spam Yapma.",
+    "kickMessage": "**{@user},** spam yaptığı için sunucudan atıldı.", 
+    "muteMessage": "**{@user},** spam yaptığı için bot tarafından mute atıldı.", 
+    "banMessage": "**{@user},** spam yaptığı için sunucudan yasaklandı." 
+
+}
